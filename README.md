@@ -4,7 +4,7 @@ This project aims to help you creating a good CLI project by defining good defau
 
 ## Slides
 
-Slides for the repository can be found [here](https://google.com).
+Slides for the repository can be found [here](https://github.com/ev1stensberg/good-cli-practises-JSHeroes-2018/blob/master/presentation.pdf).
 ## Overview 
 
 - Introduction
