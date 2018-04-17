@@ -48,7 +48,7 @@ Slides for the repository can be found [here](https://github.com/ev1stensberg/go
 - [Sfo](https://github.com/btholt/sfo)
 - [c8](https://github.com/bcoe/c8)
 - [Mac CLI](https://github.com/guarinogabriel/Mac-CLI)
-
+- [NodeJS CLI](https://github.com/nodejs/node-core-utils)
 
 ### Misc
 
