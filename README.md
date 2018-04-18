@@ -14,9 +14,59 @@ Slides for the repository can be found [here](https://github.com/ev1stensberg/go
 
 
 ## Introduction
+
+This repository guides you through some design techniques mostly used in regular software engineering paradim, but some patterns could be bridged to crafting CLI tools.
+
+The repository will also go through performance optimizations you could make, case studies with popular repositories and some useful links at the end.
+
 ## Architecture
+
+Creating the structure of the CLI you're making is quite important. Before doing so, it is important to think about what your project should do, what the goal of the project is and what you're trying to acheive. 
+
+It might be a good idea to write design documents, implementation details, flowcharts and similar techniques in order to get an overview of what you're creating. This way, it might be easier to figure out which design pattern works the best for you.
+
+
+### Iterator Pattern
+The iterator pattern is a simple pattern that sounds like what it is. You start with an iterator, which is a description of an object which will iterate through something. An iterator will need something to iterate over, and this is exactly what the iterator pattern is about. One iterates through a list or some collection of values, and make modifications to each of the values. 
+
+You might have heard of functions like `.map`, `.reduce`, `.forEach` and similar functions. All those functions expect iterable callee's. 
+
+For instance, if your CLI tool is fetching all your files in the directory into an array, and you want to write a different value to each of those paths, then an iterator pattern might be useful for your case. By iterating through the array items ( iterables ), you can modify each of the elements exactly how you want.
+
+
+### Factorial Pattern
+
+tbd
+### State Pattern
+tbd
+### Generator Pattern
+tbd
+### Coroutines Pattern
+tbd
+### Decorator Pattern
+tbd
+### Observer Pattern
+tbd
+### Singleton Pattern
+tbd
+### Template Pattern
+tbd
+### Adapter Pattern
+tbd
+### Facade Pattern
+tbd
+### Flyweight Pattern
+tbd
+### Command Pattern
+tbd
+### Abstract Factory Pattern
+tbd
+### Composite Pattern
+tbd
 ## Performance
+tbd
 ## Case Studies
+tbd
 ## Useful Links
 
 - [Which Pipe should I use?](https://www.jstorimer.com/blogs/workingwithcode/7766119-when-to-use-stderr-instead-of-stdout)
